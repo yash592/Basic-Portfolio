@@ -1,0 +1,172 @@
+
+* {
+
+	box-sizing: border-box;
+	}
+
+body {
+	background-image: url("https://cdn.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-5-full.jpg");
+	margin: 0 auto;
+}
+
+.container {	      
+	 
+     width: 67.7%;
+     height: 730px;
+     background-color: white;          
+
+}
+
+.main {
+	width: 650px;
+	height: 500px;
+	background-color: white;
+}
+
+.navbar {
+
+	clear: both;
+	width: 100%
+	height: 300px;
+}
+
+.nav {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.whole {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;	
+	float: left;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	height:70px;
+
+}
+
+li {
+	float: right;
+    color: black;
+    padding: 21px;
+    position: relative;
+    right: 455px;
+}
+
+#about {
+	padding-top: 22px;
+    padding-left: 27px;
+    font-size: 38px;
+}
+
+#name {
+	color: #EBC944;
+	background-color: #093145;
+    left:480px; 
+	font-size: 44px;	
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	position: relative;
+}
+
+#imageone {
+	padding: 10px;
+}
+
+#imagetwo {
+
+}
+
+#main {
+	width: 584px;
+	margin: 0 auto;
+}
+
+
+span {
+	background-color: #ffffff;
+}
+
+ #image {
+	float: left;
+	color: white;
+	padding: 20px;
+}
+
+#connect {	
+    clear: both;
+	text-align: center;	
+	width: 13.14%;
+	height: 140px;
+	float: right;
+	position: fixed;
+	top: 103px;
+	right: 472px;
+	background-color: white;
+}
+
+hr {
+	display:block;
+	background-color: grey;
+	height: 3px;
+	width: 90%;
+	opacity: 0.2;
+}
+
+#one {
+	display: block;
+	height: 3px;
+	width: 85%;
+	opacity: 0.2;
+}
+
+.about {
+	float:left;
+	background-color: white;
+	width:55%;
+	margin-top: 20px;
+	padding-left: 20px;
+	font-size: 24px;
+}
+
+
+
+p {
+	text-align: left;
+	font-size: 18px;
+	padding: 10px;
+}
+
+footer {
+
+	font-size: 24px;
+	padding: 20px;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	color: black;
+	background-color: white;
+	position: fixed;
+	bottom: 0px;
+}
