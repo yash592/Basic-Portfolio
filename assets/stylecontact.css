@@ -1,18 +1,24 @@
 
 * {
-
 	box-sizing: border-box;
 	}
 
 body {
-	background-image: url("https://i.imgur.com/z1z99bB.png");
+	background-image: url("https://cdn.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-5-full.jpg");
 	margin: 0 auto;
 }
+
+
+
+
+
+
+
 
 .container {	      
 	 
      width: 67.7%;
-     height: 500px;
+     height: 510px;
      background-color: white;          
 
 }
@@ -25,10 +31,15 @@ body {
 
 .navbar {
 
+	
 	clear: both;
 	width: 100%
 	height: 300px;
 }
+
+form { 
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
 
 .nav {
 	margin: 0 auto;
@@ -37,15 +48,22 @@ body {
 
 
 
-
-
 .whole {
 	width: 960px;
 	margin: 0 auto;
 }
 
-h1 {	
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;	
 	float: left;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 ul {
@@ -73,15 +91,21 @@ li {
 }
 
 #name {
-	float:left;
-    left:480px;
-	font-size: 44px;
-	background-color: grey;
-	padding-top: 1px;
+	color: #EBC944;
+	background-color: #093145;
+    left:480px; 
+	font-size: 44px;	
+	padding-top: 10px;
 	padding-bottom: 20px;
 	padding-right: 20px;
 	padding-left: 20px;
 	position: relative;
+}
+
+#form {
+	padding-left: 20px;
+	font-size: 24px;
+	height: 200px;
 }
 
 
@@ -100,7 +124,7 @@ span {
     clear: both;
 	text-align: center;	
 	width: 12.12%;
-	height: 200px;
+	height: 140px;
 	float: right;
 	position: fixed;
 	top: 100px;
@@ -111,14 +135,16 @@ span {
 hr {
 	display:block;
 	background-color: grey;
-	height: 1px;
-	width: 95%;
+	height: 3px;
+	width: 90%;
+	opacity: 0.2;
 }
 
 #one {
 	display: block;
-	height: 1px;
-	width: 80%;
+	height: 3px;
+	width: 85%;
+	opacity: 0.2;
 }
 
 .about {
@@ -139,8 +165,11 @@ p {
 }
 
 footer {
+
+	font-size: 24px;
+	padding: 20px;
 	width: 100%;
-	height: 40px;
+	height: 60px;
 	text-align: center;
 	color: black;
 	background-color: white;
